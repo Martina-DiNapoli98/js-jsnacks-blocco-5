@@ -21,7 +21,9 @@ const students = [
 
 
 let student = students.find((person)=>{
-  return person.name === "Marco Lanci"
+  if(person.name === "Marco Lanci"){
+    return true
+  }return false
 })
 console.log(student.class);
 
