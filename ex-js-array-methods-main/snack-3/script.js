@@ -1,7 +1,7 @@
 const numbers = [2, 8, 4, 7, 2, 87];
 
 let numberPlus = numbers.map((numeri)=>{
-    return numeri + 1
+    return numeri + 1;
 })
 console.log(numberPlus);
 
